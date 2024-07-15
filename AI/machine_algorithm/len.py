@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 创建模拟数据
-np.random.seed(42) # 设置随机数种子，确保每次运行结果一致
+np.random.seed(1) # 设置随机数种子，确保每次运行结果一致
 X = 2 * np.random.rand(100, 1)
 y = 4 + 3 * X + np.random.randn(100, 1)
 
